@@ -9,6 +9,6 @@
 <body>
     <img src="livro.jpg" width="50" large="50"><br><br>
 
-    <h1><font face="Century Gothic">Sinopse</font></h1><br>
+    <h1><font face="Century Gothic">Sinopse</font></h1><br><br>
 </body>
 </html>
