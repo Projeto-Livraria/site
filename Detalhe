@@ -8,7 +8,53 @@
 </head>
 <body>
     <img src="livro2.jpg" width="50" large="50"><br><br>
+    <h1 align="center"><font face="Century Gothic">O Ceifador - Trilogia Scythe Vol. 1</font></h1><br>
+    <center><img src="ProjetoLivraria/site/livroj.jpeg" width="400" large="400"></center>
+    <br><br>
 
-    <h1><font face="Century Gothic">Sinopse</font></h1><br><br>
+    <center><h1><font face="Century Gothic" align="center">R$45,90</font></h1></center><br><br>
+
+    <center><button value="reset"><font face="Century Gothic" size="4">Comprar</font></button></center><br><br>
+
+    <h2><font face="Century Gothic">Sinopse</font></h2><br>
+
+    <h3><font face="Calibri">A humanidade venceu todas as barreiras: fome, doenças, guerras, miséria... 
+    Até mesmo a morte. Agora os ceifadores são os únicos que podem pôr fim a uma vida, impedindo mque o crescimento populacional vá
+    além do limite e a Terra deixe de comportar a população por toda a eternidade.
+    Citra e Rowan são adolescentes escolhidos como aprendizes de ceifador - um papel que nenhum dos dois quer desempenhar.
+    Para receber o anel e o manto da Ceifa, os adolescentes precisam dominar a "arte" da coleta, ou seja, precisam aprender a matar. Porém,
+    se falharem em sua missão - ou se a cumplicidade no treinamento se tornar algo mais -, podem colocar a própria vida em risco.
+    </font></h3><br>
+
+    <h2><font face="Century Gothic">Detalhes do produto</font></h2><br>
+    <table>
+        <tr>
+            <td><font face="Century Gothic">Autor:</font></td>
+            <td><font face="Century Gothic">Neal Shusterman</font></td>
+        </tr>
+        <tr>
+            <td><font face="Century Gothic">Tradutor:</font></td>
+            <td><font face="Century Gothic">Guilherme Miranda</font></td>
+        </tr>
+        <tr>
+            <td><font face="Century Gothic">Gênero:</font></td>
+            <td><font face="Century Gothic">Ficção científica</font></td>
+        </tr>
+        <tr>
+            <td><font face="Century Gothic">Ano de lançamento:</font></td>
+            <td><font face="Century Gothic">2017</font></td>
+        </tr>
+        <tr>
+            <td><font face="Century Gothic">ISBN:</font></td>
+            <td><font face="Century Gothic">8555340357</font></td>
+        </tr>
+        <tr>
+            <td><font face="Century Gothic">Número de páginas:</font></td>
+            <td><font face="Century Gothic">448</font></td>
+        </tr>
+    </table>
+    <br>
+
+    
 </body>
 </html>
