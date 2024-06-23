@@ -1,0 +1,6 @@
+.justificado {text-align: justify;text-justify: inter-word;}
+
+.borda{
+    border: 1px solid black;
+    padding: 15px;
+}
