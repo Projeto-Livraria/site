@@ -12,7 +12,8 @@
     <center><img src="ProjetoLivraria/site/livroj.jpeg" width="400" large="400"></center>
     <br><br>
 
-    <center><h1><font face="Century Gothic" align="center">R$45,90</font></h1></center><br><br>
+    <center><h1><font face="Century Gothic">R$45,90</font></h1></center><br><br>
+    <center><font face="Century Gothic" size="2">à vista no PIX ou R$48,90 no cartão de crédito</font></center>
 
     <center><button value="reset"><font face="Century Gothic" size="4">Comprar</font></button></center><br><br>
 
@@ -55,6 +56,24 @@
     </table>
     <br>
 
+    <h2><font face="Century Gothic">Avaliações</font></h2>
+    <br>
     
+    <label>
+        <input type="Text" placeholder="Deixe seu comentário"><br><br>
+        <button><font face="Century Gothic">Publicar</font></button>
+    </label><br><br><br>
+    
+    <img src="ProjetoLivraria/site/user-profile-icon-free-vector.jpeg" large="50" width="50"><br>
+    <font face="Century Gothic" size="3"><b>Mariana</b></font><br>
+    <font face="Century Gothic" size="2">Entrega super rápida! O livro é muito interessante e vale muito a leitura!</font><br><br>
+
+    <img src="ProjetoLivraria/site/user-profile-icon-free-vector.jpeg" large="50" width="50"><br>
+    <font face="Century Gothic" size="3"><b>José</b></font><br>
+    <font face="Century Gothic" size="2">A história é maravilhosa e muito cativante! Chegou antes do prazo e a entrega é muito eficiente, recomendo</font><br><br>
+
+    <img src="ProjetoLivraria/site/user-profile-icon-free-vector.jpeg" width="50" large="50"><br>
+    <font face="Century Gothic" size="3"><b>Carlos</b></font><br>
+    <font face="Century Gothic" size="2">Esperava algo mais substancial e um pouco mais adulto, mas achei bem teen.</font>
 </body>
 </html>
