@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="trabalheconosco.css">
 
-<head>
+
+<head class="@FONTFACE">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookShop | Trabalhe conosco</title>
@@ -15,7 +17,7 @@
         <a href="#trabalhe" class="active">Trabalhe conosco</a>
         <a href="#somos">Quem somos?</a>
         <a href="#unidades">Nossas unidades</a>
-    </div>
+    </div><br>
 
     <H1>
         <font face="Century Gothic">
@@ -24,12 +26,12 @@
     <hr><br>
     <center style="height: 440px; width: 100%;">
         <img src="imagens/Capa-trabalhe-conosco.png" width="auto" height="100%">
-    </center>
+    </center><br>
 
     <center>
         <div style="max-width: 1200px;">
             <p class="justificado">
-                <font size=5>
+                <font size="4">
                     <font face="Century Gothic">A <b>Livraria BookShoop</b> se dedica a oferecer uma jornada cultural
                         enriquecedora tanto para seus clientes quanto para os seus colaboradores.
                         Para isso, contamos com uma equipe composta de perfis bem diversificados, que ama ler, ouvir
@@ -40,7 +42,7 @@
             </p>
 
             <p class="justificado">
-                <font size=5>
+                <font size=4>
                     <font face="Century Gothic">Essas características fazem com que a equipe esteja disponível para a
                         troca
                         de experiências culturais
@@ -49,7 +51,7 @@
                 </font>
             </p>
             <p class="justificado">
-                <font size=5>
+                <font size=4>
                     <font face="Century Gothic">Se você tem interesse em fazer parte dessa jornada,
                         envie seu currículo para uma possível oportunidade através do e-mail <font color="blue">
                             <a class="a"><a href="http://mail.google.com/mail?hl=pt-BR"
@@ -65,7 +67,7 @@
                    
                         <hr>
                         <br>
-                        <font size=6>
+                        <font size=5>
                             <font face="Century Gothic"><b>Cadrastro rápido:</b></font>
                     </font>
                 </P>
@@ -109,8 +111,81 @@
 
 </head>
 
-<body>
+<footer class="head">
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>BookShop</h1>
+            <p>Acompanhe nas nossas midias sociais:</p>
 
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        
+        <ul class="footer-list">
+            <li>
+                <h3>Atendimento</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Política de Vendas, Trocas e Privacidade</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Termos e Condições de Compra</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Fale Conosco</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Institucional</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Sobre a BookShop</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Relações entre os investidores</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Segurança</a>
+            </li>
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Veja as formas de pagamento</h3>
+
+            <p>
+                Digite seu e-mail para ser notificado sobre
+                novas promoções e lançamentos.
+            </p>
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        &#169 BookShop
+        2024 Todos os direitos reservados.
+    </div>
+</footer>
+
+    
 </body>
 
 </html>
@@ -173,4 +248,15 @@
             text-align: left;
         }
     }
+    
 </style>
+
+    <style>
+        @font-face {
+            font-family: 'Century Gothic';
+            src: url('fonts/CenturyGothic.woff2') format('woff2'),
+                 url('Century Gothic.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
