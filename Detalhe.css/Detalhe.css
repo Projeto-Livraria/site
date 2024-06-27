@@ -1,7 +1,8 @@
 body {
     font-family: Century Gothic, sans-serif;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
+    text-align: start;
 }
 .navbar {
     background-color: 	#9932CC;
@@ -53,7 +54,7 @@ head {
 }
 
 main {
-    height: 80vh;
+    height: 70vh;
 }
 
 footer {
@@ -126,7 +127,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    color: #7f37c9;
+    color: #ffdede;
 }
 
 #footer_subscribe {
@@ -153,7 +154,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #ffdede;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -189,4 +190,42 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+}
+
+.item {
+    margin: 20px; /* Você pode alterar o valor da margem conforme necessário */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    margin: 10px; /* Margem inicial */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    flex: 1; /* Para garantir que os itens ocupem espaço igualmente */
+    text-align: center;
+}
+
+button{
+    display: block;
+    text-align: center;
+    background-color: #ffdede;
+    height: 60px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+style{
+    display: block;
+    
+}
+
+div.adjust{
+    margin-left: 10px;
 }
