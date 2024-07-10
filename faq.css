@@ -215,12 +215,13 @@ footer {
         padding: 3rem 2rem;
 }
 }
-/*meu código*/
+
 body {
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif
 }
 
+/*one*/
 .perguntaone {
     border: 50px;
     border-radius: 50px;
@@ -232,7 +233,7 @@ body {
 }
 
 .perguntaone h1 {
-    margin-top: px;
+    margin-top: 50px;
 }
 
 .containerone {
@@ -241,13 +242,14 @@ body {
     border: 50px;
     border-radius: 50px;
     margin: 5px;
-    height: 100px;
+    height: 130px;
     margin-top: 0px;
     box-shadow: -5px 5px 30px #0e0c0c;
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .containerone h1 {
-    padding-top: 15px;
+    padding-top: 22px;
     padding-left: 15px;
     font-size: 37px;
 }
@@ -255,7 +257,125 @@ body {
     font-family: Arial;
     padding-left: 25px;
     font-size: 20px;
+    padding-top: 8px;
 }
+/*two*/
+.perguntatwo {
+    border: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: px;
+    
+    
+
+}
+
+.perguntatwo h1 {
+    margin-top: 40px;
+}
+
+.containertwo {
+    border: white;
+    background-color: white;
+    border: 50px;
+    border-radius: 50px;
+    margin: 5px;
+    height: 130px;
+    margin-top: 0px;
+    box-shadow: -5px 5px 30px #0e0c0c;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.containertwo h1 {
+    padding-top: 22px;
+    padding-left: 15px;
+    font-size: 37px;
+}
+.containertwo p {
+    font-family: Arial;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+/*three*/
+.perguntathree {
+    border: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: px;
+    
+    
+
+}
+
+.perguntathree h1 {
+    margin-top: 40px;
+}
+
+.containerthree {
+    border: white;
+    background-color: white;
+    border: 50px;
+    border-radius: 50px;
+    margin: 5px;
+    height: 130px;
+    margin-top: 0px;
+    box-shadow: -5px 5px 30px #0e0c0c;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.containerthree h1 {
+    padding-top: 22px;
+    padding-left: 15px;
+    font-size: 37px;
+}
+.containerthree p {
+    font-family: Arial;
+    padding-left: 25px;
+    font-size: 20px;
+   
+}
+
+
+/*four*/
+.perguntafour {
+    border: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: px;
+    
+    
+
+}
+
+.perguntafour h1 {
+    margin-top: 40px;
+}
+
+.containerfour {
+    border: white;
+    background-color: white;
+    border: 50px;
+    border-radius: 50px;
+    margin: 5px;
+    height: 130px;
+    margin-top: 0px;
+    box-shadow: -5px 5px 30px #0e0c0c;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.containerfour h1 {
+    padding-top: 22px;
+    padding-left: 15px;
+    font-size: 37px;
+}
+.containerfour p {
+    font-family: Arial;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
 main {
-    height: 200px;
+    height: 100px;
 }
