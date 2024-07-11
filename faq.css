@@ -1,12 +1,14 @@
 /*codigo levi*/
 body {
-    font-family: Century Gothic, sans-serif;
+    /* font-family:  */
     margin: 0;
     padding: 0;
 }
 .navbar {
-    background-color: 	#9932CC;
+    background-color: 	#EEB3FF;
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .navbar a {
     float: left;
@@ -70,7 +72,8 @@ head {
 }
 
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -240,11 +243,11 @@ body {
     border: white;
     background-color: white;
     border: 50px;
-    border-radius: 50px;
+    border-radius: 40px;
     margin: 5px;
-    height: 130px;
+    height: 140px;
     margin-top: 0px;
-    box-shadow: -5px 5px 30px #0e0c0c;
+    box-shadow: -0.5px 0.5px 20px 0.1px #867777;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -258,6 +261,7 @@ body {
     padding-left: 25px;
     font-size: 20px;
     padding-top: 8px;
+    padding-right: 25px;
 }
 /*two*/
 .perguntatwo {
@@ -278,11 +282,11 @@ body {
     border: white;
     background-color: white;
     border: 50px;
-    border-radius: 50px;
+    border-radius: 40px;
     margin: 5px;
     height: 130px;
     margin-top: 0px;
-    box-shadow: -5px 5px 30px #0e0c0c;
+    box-shadow:  -0.5px 0.5px 20px 0.1px #867777;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -290,11 +294,14 @@ body {
     padding-top: 22px;
     padding-left: 15px;
     font-size: 37px;
+    
 }
 .containertwo p {
     font-family: Arial;
     padding-left: 25px;
     font-size: 20px;
+    padding-top: 8px;
+    padding-right: 25px;
 }
 
 /*three*/
@@ -315,12 +322,12 @@ body {
 .containerthree {
     border: white;
     background-color: white;
-    border: 50px;
-    border-radius: 50px;
+    border: 1px;
+    border-radius: 40px;
     margin: 5px;
     height: 130px;
     margin-top: 0px;
-    box-shadow: -5px 5px 30px #0e0c0c;
+    box-shadow:  -0.5px 0.5px 20px 0.1px #867777;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -333,6 +340,8 @@ body {
     font-family: Arial;
     padding-left: 25px;
     font-size: 20px;
+    padding-top: 8px;
+    padding-right: 25px;
    
 }
 
@@ -356,11 +365,11 @@ body {
     border: white;
     background-color: white;
     border: 50px;
-    border-radius: 50px;
+    border-radius: 40px;
     margin: 5px;
     height: 130px;
     margin-top: 0px;
-    box-shadow: -5px 5px 30px #0e0c0c;
+    box-shadow:  -0.5px 0.5px 20px 0.1px #867777;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -373,9 +382,82 @@ body {
     font-family: Arial;
     padding-left: 25px;
     font-size: 20px;
+    padding-top: 8px;
+    padding-right: 25px;
 }
 
 
 main {
     height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerone{
+        height: 250px;
+    }
+
+    .containertwo{
+        height: 250px;
+    }
+
+    .containerthree{
+        height: 250px;
+    }
+
+    .containerfour {
+        height: 250px;
+    }
+
+    .containerone h1 {
+        padding-top: 35px;
+        padding-left: 8px;
+        font-size: 27px;
+        padding-right: 8px;
+    }
+    .containerone p {
+        font-family: Arial;
+        padding-left: 17px;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-right: 40.2px;
+    }
+
+    .containertwo h1 {
+        padding-top: 35px;
+        padding-left: 8px;
+        font-size: 27px;
+    }
+    .containertwo p {
+        font-family: Arial;
+        padding-left: 17px;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-right: 50px;
+    }
+
+    .containerthree h1 {
+        padding-top: 35px;
+        padding-left: 8px;
+        font-size: 27px;
+    }
+    .containerthree p {
+        font-family: Arial;
+        padding-left: 17px;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-right: 50px;
+    }
+
+    .containerfour h1 {
+        padding-top: 35px;
+        padding-left: 8px;
+        font-size: 27px;
+    }
+    .containerfour p {
+        font-family: Arial;
+        padding-left: 17px;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-right: 50px;
+    }
 }
