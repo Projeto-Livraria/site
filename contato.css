@@ -1,6 +1,6 @@
         /*codigo luis*/
         head {
-            font-family: "Century Gothic", Century Gothic, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         
         :root {
@@ -12,7 +12,7 @@
         }
         
         * {
-            font-family: 'Inter', sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -185,10 +185,11 @@
         
                 div.container{
                     margin: 100px;
-                    border: 50%, #941717;
-                    border-radius: 5px;
+                    border: 50%, #351111;
+                    border-radius: 10px;
                     background-color: white ;
-                    box-shadow:-3px 5px 25px 10px #171717;
+                    box-shadow:-3px 2px 35px 1px #ead0f1;
+                
                 }
                 div.spacebw {
                     height: 210px;
@@ -196,16 +197,21 @@
         
                 div.midtext {
                     margin-left: 10px;
-                    font-family: Arial;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;                    ;
                     letter-spacing: 0.7px;
                 }
-        
+                
+                .midtext p {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                }
+
                 footer {
                     background-color: #171717;
                     height: 100px;
                     color: white;
                     font-size: 6px;
-                    font-family: Arial, Helvetica, sans-serif;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;                    ;
                     text-align: center;
                     
         
@@ -227,7 +233,7 @@
         
                 }
                 header h1 {
-                    font-family: arial;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                     text-align: center;
                     padding: 10px;
                 }
@@ -267,22 +273,22 @@
                     width: 470px;
                 }
         
-                @media only screen and (min-width: 1000px ) {
-                    h2 {
-        
+                
+                @media only screen and (min-width: 1500px ) {
                     
                         
-                    }
+                    
+                        
+                    
                     input{
                         margin-left: 10px;
+                        width: 1000px;
                     }
                     textarea{
                         margin-left: 10px;
-                        
+                        width: 1000px;
                     }
-                    .onlyformtext {
-                        
-                    }
+                    
         
                     button {
                         margin-left: 10px;
@@ -290,19 +296,21 @@
                     }
                     label {
                         margin-left: 10px;
+                        width: 500px;
                     }
                 }
                 
             /*codigo levi*/
                 body {
-                font-family: Century Gothic, sans-serif;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 margin: 0;
                 padding: 0;
             }
         
             .navbar {
-                background-color: 	#9932CC;
+                background-color: 	#EEB3FF;
                 overflow: hidden;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
             .navbar a {
                 float: left;
