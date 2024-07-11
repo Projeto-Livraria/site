@@ -5,13 +5,13 @@ body {
     text-align: start;
 }
 .navbar {
-    background-color: 	#9932CC;
+    background-color: 	#eeb3ff;
     overflow: hidden;
 }
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
