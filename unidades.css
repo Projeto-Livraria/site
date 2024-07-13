@@ -100,7 +100,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    color: #7f37c9;
+    color: #EEB3FF;
 }
 
 #footer_subscribe {
@@ -127,7 +127,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #EEB3FF;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -190,14 +190,14 @@ footer {
         height: 80px; /* Altura do botão */
         padding: 20px; /* Espaço interno do botão */
         font-size: 24px; /* Tamanho da fonte */
-        background-color: #9900ff; /* Cor de fundo */
+        background-color: #EEB3FF; /* Cor de fundo */
         color: rgb(255, 255, 255); /* Cor do texto */
         border: none; /* Remover borda */
         border-radius: 10px; /* Borda arredondada */
         cursor: pointer; /* Cursor de ponteiro */
     }
     .big-button:hover {
-        background-color: #470275; /* Cor de fundo ao passar o mouse */
+        background-color: #900de7; /* Cor de fundo ao passar o mouse */
     }
 
     /* Link padrão */
@@ -228,7 +228,7 @@ footer {
         padding: 0;
     }
     .navbar {
-        background-color: 	#9932CC;
+        background-color: 	#EEB3FF;
         overflow: hidden;
     }
     .navbar a {
