@@ -28,7 +28,7 @@
 
 <body><br>
     <H1>
-        <font face="Century Gothic">
+        <font face="Century Gothic" class="margem">
                     Trabalhe conosco</font>
     </H1>
     <hr><br>
@@ -75,9 +75,6 @@
                    
                         <hr>
                         <br>
-                        <font size=5>
-                            <font face="Century Gothic"><b>Cadastro rápido:</b></font>
-                    </font>
                 </P>
             </center>
         
@@ -85,35 +82,36 @@
 
         <br>
 
-        <form>
-            <center><label>
-                    <font size=4>
-                        <font face="Century Gothic">Nome:</font>
-                    </font>
-                </label>
-                <input type="text" name="txt_primeiro" placeholder="*nome completo">
-            </center>
-            <br>
-            <center><label>
-                    <font size=4>
-                        <font face="Century Gothic">Email:</font>
-                    </font>
-                </label>
-                <input type="text" name="txt_primeiro" placeholder="*email">
-            </center>
-            <br>
-            <center><label>
-                    <font size=4>
-                        <font face="Century Gothic">Telefone</font>
-                    </font>
-                </label>
-                <input type="text" name="txt_primeiro" placeholder="*telefone">
+        <main>
+        <section class="careers">
+            <h1>Cadastro rápido
+            </h1>
+            <p>Estamos sempre em busca de novos talentos! Se você é apaixonado 
+                por livros e deseja fazer parte de nossa equipe, preencha essas informações abaixo:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="position">Posição desejada:</label>
+                <input type="text" id="position" name="position" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </form>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         
-            <br><br>
-            <input type="submit" value="Enviar resposta"><br><br>
-        </form>
-        <hr><BR><BR>
+       
         </div>
     </center>
 
@@ -266,3 +264,5 @@
             font-style: normal;
         }
     </style>
+
+   

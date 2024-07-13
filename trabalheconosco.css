@@ -164,3 +164,89 @@ footer {
         padding: 3rem 2rem;
     }
 }
+
+.careers {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.careers h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.careers h1::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.careers p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    color: #555;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #bb3ed4;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #e650d2;
+    transform: translateY(-2px);
+}
+
+.margem  {
+    margin: 15px;
+}
