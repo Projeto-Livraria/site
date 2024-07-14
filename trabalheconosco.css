@@ -127,7 +127,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #EEB3FF;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -225,7 +225,7 @@ input, textarea {
 }
 
 button {
-    background-color: #bb3ed4;
+    background-color: #EEB3FF;
     color: #fff;
     padding: 15px 30px;
     font-size: 18px;
@@ -243,7 +243,7 @@ button i {
 }
 
 button:hover {
-    background-color: #e650d2;
+    background-color: #ba17e7;
     transform: translateY(-2px);
 }
 
