@@ -244,7 +244,7 @@ footer {
         color: black;
     }
     .navbar a.active {
-        background-color: #e0c214;
+        background-color: #ffd900;
         color: white;
     }
     /* Media Query para telas menores */
