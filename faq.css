@@ -391,21 +391,21 @@ main {
     height: 100px;
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 900px) {
     .containerone{
-        height: 550px;
+        height: 600px;
     }
 
     .containertwo{
-        height: 550px;
+        height: 600px;
     }
 
     .containerthree{
-        height: 550px;
+        height: 600px;
     }
 
     .containerfour {
-        height: 550px;
+        height: 600px;
     }
 
     .containerone h1 {
