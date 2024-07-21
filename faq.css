@@ -393,19 +393,19 @@ main {
 
 @media screen and (max-width: 868px) {
     .containerone{
-        height: 100px;
+        height: 250px;
     }
 
     .containertwo{
-        height: 100px;
+        height: 250px;
     }
 
     .containerthree{
-        height: 100px;
+        height: 250px;
     }
 
     .containerfour {
-        height: 100px;
+        height: 250px;
     }
 
     .containerone h1 {
